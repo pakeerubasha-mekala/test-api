@@ -19,4 +19,4 @@ jobs:
     - name: List Images
       run: docker images
     - name: deploy image
-      run: kubectl run --it --image my-image-name:$(date +%s)
+      run: kubectl run python3 --image=my-image-name:$(date +%s)
